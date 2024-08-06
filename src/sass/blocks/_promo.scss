@@ -7,11 +7,17 @@
         margin-top: 10px;
         width: 535px;
     }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+    }
     &__btns {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        width: 20px;
+        width: 250px;
         margin-top: 25px;
     }
     &__link {
